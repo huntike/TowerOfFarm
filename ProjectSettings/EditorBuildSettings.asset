@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/Ville/villes.unity
+    guid: 153d2401e7102024daeb3f3792a05be7
+  - enabled: 1
+    path: Assets/_Scenes/mapDJ/mapDJ.unity
+    guid: 130b0bf9bcd774c4d99b8aa27f7a8082
