@@ -5,9 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class SelectLvl : MonoBehaviour {
     [SerializeField] private string SceneLevel;
-    public void sstratthegame()
+    [SerializeField] private string SceneLeve2;
+
+    public void sstratlevel1()
     {
         SceneManager.LoadScene(SceneLevel);
+
+    }
+    public void sstratlevel2()
+    {
+        SceneManager.LoadScene(SceneLeve2);
 
     }
 
