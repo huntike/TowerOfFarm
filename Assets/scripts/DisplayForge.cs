@@ -6,6 +6,7 @@ using UnityEngine;
 public class DisplayForge : MonoBehaviour
 {
     public Canvas inventaire;
+    public Canvas forge;
 
     void OnTriggerEnter(Collider other)
     {
@@ -13,6 +14,8 @@ public class DisplayForge : MonoBehaviour
         {
             Debug.Log("le trigger fonctionne");
             inventaire.enabled = true;
+            forge.enabled = true;
+
 
         }
 
@@ -23,6 +26,8 @@ public class DisplayForge : MonoBehaviour
         {
             Debug.Log("le trigger fonctionne");
             inventaire.enabled = false;
+            forge.enabled = false;
+
 
         }
 

@@ -2,12 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.UI;
+
 
 
 public class Inventaire : MonoBehaviour {
 
     bool activation = false;
     public GameObject Player;
+    public Canvas P;
+
 	// Use this for initialization
 	void Start () {
         GetComponent<Canvas>().enabled = false;
@@ -32,4 +36,8 @@ public class Inventaire : MonoBehaviour {
         
 		
 	}
+    public void UpdateTxt(int slot , string txt)
+    {
+        P.transform.GetChild(0).GetChild(slot).GetChild(1).GetComponent<Text>().text = txt;
+    }
 }
