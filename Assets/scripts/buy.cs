@@ -9,7 +9,7 @@ public class buy : MonoBehaviour {
     int i = 1;
     int coin = 251;
     public int slot;
-    public GameObject TeamName;
+    public Text TeamName;
 
 
     void Start()
@@ -34,10 +34,9 @@ public class buy : MonoBehaviour {
 	}
     public void Coin()
     {
-        var MoneyCoin = TeamName.GetComponent<Text>();
-        MoneyCoin.text = MoneyCoin.ToString();
         
-        int.TryParse(MoneyCoin.text, out coin);
+        float MoneyCoin = int.Parse(TeamName.text);
+
 
         if (coin >= 15)
         {

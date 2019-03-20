@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slot: 16
-  TeamName: {fileID: 0}
+  TeamName: {fileID: 1154538428}
 --- !u!1001 &5321187
 Prefab:
   m_ObjectHideFlags: 0
@@ -4381,7 +4381,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slot: 15
-  TeamName: {fileID: 0}
+  TeamName: {fileID: 913040037}
 --- !u!1 &787547357
 GameObject:
   m_ObjectHideFlags: 0
@@ -11048,7 +11048,7 @@ GameObject:
   - component: {fileID: 1884542537}
   - component: {fileID: 1884542540}
   m_Layer: 5
-  m_Name: Button (5)
+  m_Name: Button heal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11192,7 +11192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slot: 0
-  TeamName: {fileID: 4814662}
+  TeamName: {fileID: 0}
 --- !u!1001 &1891782705
 Prefab:
   m_ObjectHideFlags: 0
@@ -12584,7 +12584,7 @@ GameObject:
   - component: {fileID: 2131605125}
   - component: {fileID: 2131605124}
   m_Layer: 5
-  m_Name: Button (6)
+  m_Name: Button mana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
