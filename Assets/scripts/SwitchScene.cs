@@ -7,8 +7,15 @@ public class SwitchScene : MonoBehaviour {
 
 	public string NomScene;
 
-	public void menuToPartie()
+	public void prochaineScene()
 	{
 		SceneManager.LoadScene(NomScene);
 	}
+
+    public string SceneFuir;
+
+    public void fuirCombat()
+    {
+        SceneManager.LoadScene(SceneFuir);
+    }
 }

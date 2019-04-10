@@ -7664,7 +7664,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85196ffe60a89104ca6376494c67556f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NomScene: 
+  NomScene: mapDJ2
+  SceneFuir: ville
 --- !u!4 &1846490807
 Transform:
   m_ObjectHideFlags: 0
