@@ -28,14 +28,21 @@ public class buy : MonoBehaviour {
 	
 	// Update is called once per frame
 	public void Test () {
-        i++;
-        Inventaire_Script.UpdateTxt(slot, i.ToString());
-		
-	}
+        Debug.Log(coin + "in fonction test");
+        if (coin >= 15)
+        {
+            coin = coin - 15;
+
+            i++;
+            Inventaire_Script.UpdateTxt(slot, i.ToString());
+        }
+
+
+    }
     public void Coin()
     {
         
-        float MoneyCoin = int.Parse(TeamName.text);
+        //float MoneyCoin = int.Parse(TeamName.text);
 
 
         if (coin >= 15)
@@ -43,6 +50,10 @@ public class buy : MonoBehaviour {
             coin = coin - 15;
 
             Inventaire_Script.UpdateTxt(slot, coin.ToString());
+            Debug.Log("achat effectuer" + coin);
+            
+
+
 
         }
         else
