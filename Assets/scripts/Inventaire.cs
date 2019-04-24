@@ -40,4 +40,8 @@ public class Inventaire : MonoBehaviour {
     {
         P.transform.GetChild(0).GetChild(slot).GetChild(1).GetComponent<Text>().text = txt;
     }
+    public void UpdateImg(int slotImg , bool act)
+    {
+        P.transform.GetChild(0).GetChild(slotImg).GetChild(0).GetComponent<Image>().enabled = act;
+    }
 }

@@ -24,7 +24,7 @@ public class DisplayForge : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("le trigger fonctionne");
+            Debug.Log("sorti du trigger");
             inventaire.enabled = false;
             forge.enabled = false;
 
