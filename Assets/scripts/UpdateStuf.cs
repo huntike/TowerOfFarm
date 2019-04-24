@@ -8,6 +8,8 @@ public class UpdateStuf : MonoBehaviour {
     Inventaire Inventaire_Script;
     InventaireForge InventaireForge_Script;
 
+    public Canvas Image;
+
     public Canvas forge;
     public Canvas inventaire;
 

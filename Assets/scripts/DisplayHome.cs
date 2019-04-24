@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-public class DisplayForge : MonoBehaviour{
+public class DisplayHome : MonoBehaviour {
 
     public Canvas inventaire;
-    public Canvas forge;
+    public Canvas coffre;
 
     void OnTriggerEnter(Collider other)
     {
@@ -14,7 +13,7 @@ public class DisplayForge : MonoBehaviour{
         {
             Debug.Log("le trigger fonctionne");
             inventaire.enabled = true;
-            forge.enabled = true;
+            coffre.enabled = true;
 
 
         }
@@ -26,21 +25,20 @@ public class DisplayForge : MonoBehaviour{
         {
             Debug.Log("sorti du trigger");
             inventaire.enabled = false;
-            forge.enabled = false;
+            coffre.enabled = false;
 
 
         }
 
     }
+
     // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
 }
