@@ -13,4 +13,7 @@ public class CaracterData : MonoBehaviour {
 	void Update () {
 		
 	}
+
+
+
 }
