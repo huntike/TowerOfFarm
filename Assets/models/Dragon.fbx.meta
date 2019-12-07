@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: 75d5161c73e95bd46ae455154cd75fcf
+timeCreated: 1548234482
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body
+    100002: BodyRoot
+    100004: Bone
+    100006: Bone_end
+    100008: //RootNode
+    100010: Dragon
+    100012: DragonArmature
+    100014: EyeArmature
+    100016: Face
+    100018: Feet.L
+    100020: Feet.L_end
+    100022: Feet.R
+    100024: Feet.R_end
+    100026: Head
+    100028: LowerLeg.L
+    100030: LowerLeg.R
+    100032: Neck
+    100034: Nose
+    100036: Nose_end
+    100038: Root
+    100040: Shoulder.L
+    100042: Shoulder.R
+    100044: Tail1
+    100046: Tail2
+    100048: Tail3
+    100050: Tail4
+    100052: Tail4_end
+    100054: UpperLeg.L
+    100056: UpperLeg.R
+    100058: Wing1.L
+    100060: Wing1.R
+    100062: Wing2.L
+    100064: Wing2.R
+    100066: Wing3.L
+    100068: Wing3.R
+    100070: Wing4.L
+    100072: Wing4.L_end
+    100074: Wing4.R
+    100076: Wing4.R_end
+    400000: Body
+    400002: BodyRoot
+    400004: Bone
+    400006: Bone_end
+    400008: Dragon
+    400010: //RootNode
+    400012: DragonArmature
+    400014: EyeArmature
+    400016: Face
+    400018: Feet.L
+    400020: Feet.L_end
+    400022: Feet.R
+    400024: Feet.R_end
+    400026: Head
+    400028: LowerLeg.L
+    400030: LowerLeg.R
+    400032: Neck
+    400034: Nose
+    400036: Nose_end
+    400038: Root
+    400040: Shoulder.L
+    400042: Shoulder.R
+    400044: Tail1
+    400046: Tail2
+    400048: Tail3
+    400050: Tail4
+    400052: Tail4_end
+    400054: UpperLeg.L
+    400056: UpperLeg.R
+    400058: Wing1.L
+    400060: Wing1.R
+    400062: Wing2.L
+    400064: Wing2.R
+    400066: Wing3.L
+    400068: Wing3.R
+    400070: Wing4.L
+    400072: Wing4.L_end
+    400074: Wing4.R
+    400076: Wing4.R_end
+    4300000: Dragon
+    7400000: DragonArmature|Dragon_Attack
+    7400002: DragonArmature|Dragon_Attack2
+    7400004: DragonArmature|Dragon_Death
+    7400006: DragonArmature|Dragon_Flying
+    7400008: DragonArmature|Dragon_Hit
+    9500000: //RootNode
+    13700000: Dragon
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Belly
+    second: {fileID: 2100000, guid: 12b207ba90f73e0429544ed131eb7060, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Claws
+    second: {fileID: 2100000, guid: 4a88780182f57bd4f927460c95d68346, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Main
+    second: {fileID: 2100000, guid: f49f4ee2fc1bcde4bbce80b16286a5db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wings
+    second: {fileID: 2100000, guid: c2be662127005634da5f22c0532d9e56, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

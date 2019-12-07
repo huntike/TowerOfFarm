@@ -3,7 +3,23 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Interact
+  - HeroPanel
+  - FuirPanel
+  - SortsPanel
+  - ArmesPanel
+  - PotionsPanel
+  - Anta2Name
+  - Prota1HP
+  - Anta1Name
+  - Prota2MP
+  - Prota1Name
+  - Prota2Name
+  - Prota1MP
+  - Prota2HP
+  - victoire
+  - defaite
   layers:
   - Default
   - TransparentFX
