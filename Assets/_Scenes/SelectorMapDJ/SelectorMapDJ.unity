@@ -857,7 +857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bedd3f6499f82646b1352a62416a551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneLevel: mapDJ
+  SceneLeve: mapDJ
   SceneLeve2: mapDJ2
 --- !u!114 &775534657
 MonoBehaviour:

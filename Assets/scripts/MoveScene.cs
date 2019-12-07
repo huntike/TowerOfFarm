@@ -4,7 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MoveScene : MonoBehaviour {
+
+   
+
     [SerializeField] private string SceneLevel;
+
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -12,4 +16,8 @@ public class MoveScene : MonoBehaviour {
             SceneManager.LoadScene(SceneLevel);
         }
     }
+
+
+
+
 }

@@ -4,13 +4,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SelectLvl : MonoBehaviour {
-    [SerializeField] private string SceneLevel;
+    [SerializeField] private string SceneLeve;
     [SerializeField] private string SceneLeve2;
+
 
     public void sstratlevel1()
     {
-        SceneManager.LoadScene(SceneLevel);
-
+        SceneManager.LoadScene(SceneLeve);
     }
     public void sstratlevel2()
     {

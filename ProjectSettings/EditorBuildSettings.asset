@@ -14,8 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/UI_Combat.unity
     guid: 98d8b02e39a39d5498505202f7685c8c
-  - enabled: 1
-    path: Assets/_Scenes/mapDJ/mapDJ.unity
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/130b0bf9bcd774c4d99b8aa27f7a8082
     guid: 130b0bf9bcd774c4d99b8aa27f7a8082
   - enabled: 1
     path: Assets/_Scenes/SelectorMapDJ/SelectorMapDJ.unity

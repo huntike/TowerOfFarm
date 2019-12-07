@@ -93,4 +93,23 @@ public class SwitchPanel : MonoBehaviour {
 	{
 		ComfirmQuitPanel.SetActive(!ComfirmQuitPanel.activeSelf);
 	}
+    //------------------------------------------------
+    public void AfficheVictoire(GameObject victoire)
+    {
+        victoire.SetActive(!victoire.activeSelf);
+    }
+    public void Enlevevictoire(GameObject victoire)
+    {
+        victoire.SetActive(!victoire.activeSelf);
+    }
+    //------------------------------------------------
+    public void AfficheDefaite(GameObject defaite)
+    {
+        defaite.SetActive(!defaite.activeSelf);
+    }
+    public void EnleveDefaite(GameObject defaite)
+    {
+        defaite.SetActive(!defaite.activeSelf);
+        defaite.SetActive(!defaite.activeSelf);
+    }
 }
